@@ -1,0 +1,96 @@
+ * {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      }
+     
+      .box {
+      width: 500px;
+      border-radius: 10%;
+      margin: 11% auto auto auto;
+      padding: 50px 60px;
+      display: table;
+      position: relative;
+      background-color: #fff;
+      }
+
+
+
+      .quoteText {
+      text-align: center;
+      width: 450px;
+      height: auto;
+      clear: both;
+      font-weight: 500;
+      font-size: 1.75em;
+      }
+      .quoteText i {
+      font-size: 1.0em;
+      margin-right: 0.4em;
+      }
+      .quoteAuthor {
+      width: 450px;
+      height: auto;
+      clear: both;
+      padding-top: 20px;
+      font-size: 1em;
+      text-align: right;
+      }
+      
+      .box .buttons .button {
+      height: 38px;
+      border: none;
+      border-radius: 3px;
+      color: #fff;
+      background-color: #333;
+      outline: none;
+      font-size: 0.85em;
+      padding: 8px 18px 6px 18px;
+      margin-top: 30px;
+      opacity: 1;
+      cursor: pointer;
+      }
+
+      #twitter-quote,#tumblr-quote {
+      float: left;
+      padding: 0px;
+      padding-top: 5px;
+      text-align: center;
+      font-size: 1.2em;
+      margin-right: 5px;
+      height: 30px;
+      width: 40px;
+      }
+
+      .button{
+        animation: bubble 5s 1;
+      }
+
+      @keyframes bubble{
+        0%{
+          opacity: 0;
+        }
+        10%{
+          opacity: 50;
+          background-color: blue;
+          transform: scale3d(1.5,1.5,2);
+        }
+        70%{
+          animation-timing-function: ease-in;
+          opacity: 1;
+          background-color: yellow;
+        }
+        100%{
+          opacity: 0;
+        }
+      }
+
+      .buttons {
+      width: 450px;
+      margin: auto;
+      display: block;
+      }
+
+      #newQuote {
+      margin-left: 260px;
+      }
